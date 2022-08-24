@@ -1,5 +1,6 @@
 {
  "version": "Pre_v0.0.0b4",
- "config_version": "0.2" ,
- "check_update": true
+ "config_version": "0.3" ,
+ "check_update": true,
+ "hypixel_api_key": null
 }
