@@ -22,6 +22,9 @@ def run():
         latest_release = content.split('=')[1]
         if version != latest_release:
             print(f"New release avalible! '{latest_release}'")
+    hypixel_api_key = data.get('hypixel_api_key')
+    if hypixel_api_key is None:
+        print("Warning! Please ensure your hypixel API key is correct!")
 
 if __name__ == "__main__":
     run()
